@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gourmetizando</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <div class="navigation_icon">
+          <img src="./img/logo_sf_sf.png" alt="" />
+        </div>
+        <div class="navigation_list_div">
+          <ul class="navigation_list">
+            <li>Home</li>
+            <li onclick="redirectToForm()">
+              Contato
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="apresentacao">
+      <div class="logo">
+        <img src="./img/logo_sf.png" alt="" />
+
+        <div class="apresentacao_texto">
+          <h1>Transformamos o seu Evento em uma experiência deliciosa</h1>
+          <h3>Uma Equipe com expertise!</h3>
+          <p>
+            Estamos no mercado de Eventos há mais de 30 anos! E estamos prontos
+            para preparar toda a parte alimentícia do seu evento!
+          </p>
+        </div>
+      </div>
+      <div class="bonecos">
+        <img src="./img/pessoas-comendo-bolo-doce-e-delicioso.png" alt="" />
+      </div>
+    </section>
+    <section class="eventos">
+      <h2>EVENTOS</h2>
+
+      <div class="gallery">
+        <div class="fotos">
+          <ul class="slider">
+            <li>
+              <input type="radio" id="slide1" name="slide" checked/>
+              <label for="slide1"></label><img src="./img/evt1.jpg" alt="" />
+            </li>
+            <li>
+              <input type="radio" id="slide2" name="slide" />
+              <label for="slide2"></label><img src="./img/evt2.jpg" alt="" />
+            </li>
+            <li>
+              <input type="radio" id="slide3" name="slide" />
+              <label for="slide3"></label><img src="./img/evt3.jpg" alt="" />
+            </li>
+            <li>
+              <input type="radio" id="slide5" name="slide" />
+              <label for="slide5"></label><img src="./img/evt7.jpg" alt="" />
+            </li>
+            <li>
+              <input type="radio" id="slide6" name="slide" />
+              <label for="slide6"></label><img src="./img/evt6.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="produtos">
+        <table >
+            <thead>
+              <tr>
+                <th>Serviços</th>
+                <th>Simples</th>
+                <th>Completo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="servicos"><p>Comida feita na hora</p></td>
+                <td> <img src="./img/lista-de-controle.png" alt=""></td>
+                <td> <img src="./img/lista-de-controle.png" alt=""></td>
+              </tr>
+              <tr>
+                <td class="servicos"><p>Bebidas</p></td>
+                <td> <img src="./img/lista-de-controle.png" alt=""></td>
+                <td> <img src="./img/lista-de-controle.png" alt=""></td>
+              </tr>
+              <tr>
+                <td class="servicos"><p>Limpeza da Cozinha (Toda louça inclusa)</p></td>
+                <td> <img src="./img/lista-de-controle.png" alt=""></td>
+                <td> <img src="./img/lista-de-controle.png" alt=""></td>
+              </tr>
+              <tr>
+                <td class="servicos"><p>Disponibilização da Louça</p></td>
+                <td> <img src="./img/excluir.png" ></td>
+                <td> <img src="./img/lista-de-controle.png" alt=""></td>
+              </tr>
+              <tr>
+                <td class="servicos"><p>Equipe de Garçons</p></td>
+                <td> <img src="./img/excluir.png" ></td>
+                <td> <img src="./img/lista-de-controle.png" alt=""></td>
+              </tr>
+              <tr>
+                <td class="servicos"><p>Decoração do Buffet</p></td>
+                <td> <img src="./img/excluir.png" ></td>
+                <td> <img src="./img/lista-de-controle.png" alt=""></td>
+              </tr>
+            </tbody>
+        </table> 
+
+        <div class="orcamento_button">
+          <div class="orcamento">Solicite seu orçamento</div>
+        </div>
+        
+    </section>
+    <footer class="footer">
+      <div>&copy; 2024 Gourmetizando. Developed by Jeferson Lanius.</div>
+  </footer>
+
+  <script src="./script.js"></script>
+  </body>
+</html>

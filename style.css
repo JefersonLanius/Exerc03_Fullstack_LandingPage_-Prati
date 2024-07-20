@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body {
+    background-color: #fff2af;
+}
+header {
+    
+    display: inline-block;
+    width: 100%;
+    height: 7rem;
+    background-color:#fd89053f;
+    
+}   
+
+.navigation_icon{
+    
+    float: left;
+    margin-left: 5rem;
+}
+
+.navigation img {
+    width: 8rem;
+    height: 7rem;
+}
+.navigation_list_div{
+    float: right;
+    margin-top: 2.5rem;
+    margin-right: 5rem;
+}
+.navigation_list{
+
+    list-style-type: none;
+}
+.navigation_list li {
+    float: left;
+    margin: 0 0.9rem;
+    font-weight: 500;
+}
+.navigation_list li:hover{
+    cursor: pointer;
+}
+.apresentacao {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+}
+.logo {
+    
+    position: absolute;
+    top: -5rem;
+    right: 50%; 
+}
+.logo img{
+    max-height: 50rem;
+}
+.apresentacao_texto {
+    position: absolute;
+    top: 25rem;
+}
+.apresentacao h1{
+    margin-bottom: 1rem;
+    max-width: 500px;
+    text-align: center;
+}
+.apresentacao h3{
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+    text-align: center;
+}
+.apresentacao p {
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+    text-align: center;
+}
+.titulo{ 
+    max-width: 50%;
+}
+.bonecos{
+    display: inline-block;
+    position: relative;
+    left: 50rem;
+    top: 4rem;
+}
+.bonecos img{
+    max-width: 500px;
+    max-height: 500px;
+}
+.eventos{
+    margin-top: 3rem;
+    text-align: center;
+}
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    
+
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+    border: 5px;
+    border-color: #000;
+}
+
+.slider img {
+    margin: auto;
+    height: 300px;
+    width: 600px;
+    object-fit: cover;
+    vertical-align: top;
+    
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #000;
+    bottom: -20px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    height: 10px;   
+    width: 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 200px;
+}
+
+.slider li:nth-child(2) label {
+    left: 250px;
+}
+
+.slider li:nth-child(3) label {
+    left: 300px;
+}
+.slider li:nth-child(4) label {
+    left: 350px;
+}
+.slider li:nth-child(5) label {
+    left: 400px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.produtos {
+    margin-top: 5rem;
+}
+.produtos table {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+.produtos img{
+    height: 40px;
+}
+tbody tr td{
+    
+    width: 150px;
+}
+.servicos {
+
+        
+        p{
+            overflow: hidden; 
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4; 
+            -webkit-box-orient: vertical; 
+        }
+    
+}
+
+.orcamento_button{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.orcamento {
+    height: 2rem;
+    width: 15rem;
+    background-color: #fd89053f;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.orcamento:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5rem;
+}
+.form {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.form {
+    text-align: center;
+}
+.formulario button{
+    margin-top: 50px;
+    height: 40px;
+    width: 200px;
+}
+.formulario input,
+.formulario textarea{
+    display: block;
+    width: calc(100% - 22px);
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
